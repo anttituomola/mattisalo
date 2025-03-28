@@ -9,7 +9,7 @@ export default function Hero() {
 				<h1 className={styles.title}>4+4</h1>
 				<h2 className={styles.subtitle}>Matti Salo Quartet</h2>
 				<Link
-					href="https://open.spotify.com/artist/3LopKmUAUXYbkt5JUcMhN6"
+					href="https://open.spotify.com/artist/7gQ6hacN56yzNhbH7r6KvR"
 					className={styles.spotifyButton}
 					target="_blank"
 					rel="noopener noreferrer"

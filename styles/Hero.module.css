@@ -10,6 +10,7 @@
   justify-content: center;
   position: relative;
   margin-top: -80px; /* Adjust based on your header height */
+  padding-top: 80px; /* Add padding to account for the negative margin */
 }
 
 .heroContent {
@@ -61,6 +62,11 @@
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .heroContainer {
+    margin-top: -70px; /* Match the mobile nav height */
+    padding-top: 70px;
+  }
+  
   .title {
     font-size: 80px;
   }

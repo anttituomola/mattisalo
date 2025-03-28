@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaSoundcloud, FaFacebookF, FaLink, FaInstagram } from 'react-icons/fa';
+import { FaSoundcloud, FaFacebookF, FaSpotify, FaInstagram, FaYoutube } from 'react-icons/fa';
 import styles from '../styles/Footer.module.css';
 
 export default function Footer() {
@@ -12,11 +12,14 @@ export default function Footer() {
 				<a href="https://www.facebook.com/mattisaloquartet" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
 					<FaFacebookF />
 				</a>
-				<a href="#" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
-					<FaLink />
+				<a href="https://open.spotify.com/artist/7gQ6hacN56yzNhbH7r6KvR" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+					<FaSpotify />
 				</a>
 				<a href="https://www.instagram.com/mattisalo" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
 					<FaInstagram />
+				</a>
+				<a href="https://www.youtube.com/channel/UCj0CwMr2xhdZwrPfLm9ns4Q" target="_blank" rel="noopener noreferrer" className={styles.socialIcon}>
+					<FaYoutube />
 				</a>
 			</div>
 

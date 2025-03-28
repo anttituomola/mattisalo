@@ -54,7 +54,7 @@ export default function WatchSection() {
 
 				<div className={styles.moreVideos}>
 					<a
-						href="https://www.youtube.com/channel/UCbZ5KmBR-qZ2UFcnL4XVoYg"
+						href="https://www.youtube.com/channel/UCj0CwMr2xhdZwrPfLm9ns4Q"
 						target="_blank"
 						rel="noopener noreferrer"
 						className={styles.moreVideosLink}
