@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	reactStrictMode: true,
-	swcMinify: true,
+	// Remove swcMinify as it's causing warnings with Next.js 15
 	images: {
 		unoptimized: true, // For static export
 	},
@@ -22,6 +22,8 @@ const nextConfig = {
 		});
 		return config;
 	},
+	// Add output configuration for Next.js 15
+	output: 'export',
 };
 
 module.exports = nextConfig; 
