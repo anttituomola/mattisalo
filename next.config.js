@@ -24,6 +24,7 @@ const nextConfig = {
 	},
 	// Add output configuration for Next.js 15
 	output: 'export',
+	distDir: 'out'
 };
 
 module.exports = nextConfig; 
