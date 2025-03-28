@@ -1,0 +1,105 @@
+.nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+.navLeft, .navRight {
+  flex: 1;
+}
+
+.navCenter {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.navLeft .navList {
+  justify-content: flex-start;
+}
+
+.navRight .navList {
+  justify-content: flex-end;
+}
+
+.navList li {
+  position: relative;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  display: block;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.navList li.active .navLink {
+  font-weight: bold;
+}
+
+.navList li.active::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: white;
+}
+
+/* Responsive navigation */
+@media (max-width: 768px) {
+  .nav {
+    padding: 0 1rem;
+    flex-direction: column;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .navLeft, .navCenter, .navRight {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .navList {
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .navLeft .navList, .navRight .navList {
+    justify-content: center;
+  }
+} 

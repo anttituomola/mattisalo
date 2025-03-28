@@ -1,0 +1,115 @@
+.storySection {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 4rem 0;
+  position: relative;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.socialIcon {
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.socialIcon:hover {
+  opacity: 1;
+}
+
+.sectionTitle {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 4px;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.contentContainer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  align-items: center;
+  gap: 4rem;
+}
+
+.imageContainer {
+  flex: 1;
+  max-width: 500px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.textContent {
+  flex: 1;
+  text-align: left;
+  max-width: 600px;
+}
+
+.textContent p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.contactButton {
+  display: inline-block;
+  margin-top: 1.5rem;
+  border: 1px solid #5E35B1;
+  background-color: transparent;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.contactButton:hover {
+  background-color: #5E35B1;
+}
+
+/* Responsive styles */
+@media (max-width: 992px) {
+  .contentContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .imageContainer,
+  .textContent {
+    max-width: 100%;
+  }
+  
+  .textContent {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 2rem;
+  }
+  
+  .storySection {
+    padding: 3rem 0;
+  }
+} 

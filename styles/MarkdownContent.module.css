@@ -1,0 +1,94 @@
+.markdownContent {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 1.75em;
+}
+
+.markdownContent h1,
+.markdownContent h2,
+.markdownContent h3,
+.markdownContent h4,
+.markdownContent h5,
+.markdownContent h6 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-transform: uppercase;
+}
+
+.markdownContent h1 {
+  font-family: 'Abel', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 1.2em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+.markdownContent h2 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 1.1em;
+  letter-spacing: 4px;
+}
+
+.markdownContent h3 {
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+}
+
+.markdownContent p {
+  margin-bottom: 1.5rem;
+}
+
+.markdownContent strong, 
+.markdownContent b {
+  font-weight: 700;
+  color: var(--secondary-color);
+}
+
+.markdownContent em,
+.markdownContent i {
+  font-style: italic;
+}
+
+.markdownContent ul,
+.markdownContent ol {
+  margin-bottom: 1.5rem;
+  padding-left: 2rem;
+}
+
+.markdownContent li {
+  margin-bottom: 0.5rem;
+}
+
+.markdownContent blockquote {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.35em;
+  letter-spacing: 0;
+  border-left: 4px solid var(--accent-color);
+  padding-left: 1rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.markdownContent img {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  display: block;
+} 

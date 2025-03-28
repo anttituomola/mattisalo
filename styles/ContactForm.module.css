@@ -1,0 +1,89 @@
+.formContainer {
+  margin-top: 2rem;
+  padding: 2rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  background-color: #f9f9f9;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.nameFields {
+  display: flex;
+  gap: 1rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.inputGroup label {
+  margin-bottom: 0.5rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.inputGroup input,
+.inputGroup textarea {
+  padding: 0.75rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.inputGroup textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submitButton {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  border-radius: 0;
+  transition: background-color 0.2s ease;
+  align-self: flex-start;
+}
+
+.submitButton:hover {
+  background-color: var(--primary-color);
+}
+
+.thankYou {
+  text-align: center;
+  padding: 2rem;
+}
+
+.thankYou p {
+  font-size: 1.2rem;
+  color: var(--accent-color);
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .nameFields {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .formContainer {
+    padding: 1.5rem;
+  }
+} 
